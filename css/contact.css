@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap');
+
+
+* {
+  line-height: 1.15;
+  font-family: "Noto Sans jp";
+}
+
+h2 {
+  margin: 0 auto 2vw;
+  width: 46vw;
+}
+
+
+.inquiry_info {
+  text-align: center;
+  font-size: 3vw;
+  margin: 4vw auto;
+}
+
+.inquiry_info input {
+  background: #fff;
+  width: 87vw;
+  height: 9vw;
+  padding: 0vw 0 1vw;
+  margin: 4vw auto 0;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.inquiry_info input:hover {
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+
+
+form {
+  border: 0.4vw solid;
+  margin: 0px 23vw;
+  text-align: left;
+  padding: 2vw 0vw 2vw 0vw;
+  text-align: center;
+}
+
+form p {
+  font-size: 4vw;
+  padding: 0.7vw 0;
+}
+}
